@@ -1,0 +1,192 @@
+@font-face {
+font-family: LeagueSpartan;
+    src: url(assets/League_Spartan/LeagueSpartan-VariableFont_wght.ttf);
+}
+html{
+    box-sizing: border-box;
+}
+
+*::before, ::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: LeagueSpartan;
+}
+
+nav ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    /* border: 2px solid saddlebrown; */
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-basis: row wrap;
+
+}
+
+nav ul a{
+    color: hsl(217, 5%, 35%);
+    text-decoration: none;
+}
+
+nav li:first-child{
+    font-size: 1.4rem;
+    /* border: 3px solid green; */
+    margin: 0 2rem 0 8.5rem;
+}
+
+nav li .nav-avatar{
+    /* border: 2px solid yellow; */
+    width: 2.5rem;
+    margin: 0 8.5rem 0 0;
+}
+
+nav li:nth-child(7){
+    /* border: 2px solid tan; */
+    text-align: right;
+    margin-left: auto;
+}
+
+.nav-line-seperator{
+    border: 0.1rem solid hsl(219, 10%, 71%);
+    margin-top: -1rem;
+    width: 81%;
+    margin: 0 0 0 8.5rem ;
+}
+
+.the-product{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+}
+
+.main-product{
+    /* border: 3px solid magenta; */
+    max-width: 55%;
+    margin: 5rem 0 0 11.5rem ;
+    border-radius: 10px;
+    /* border: 2px solid blue; */
+}
+
+.product-preview-image{
+    width: 18%;
+    /* border: 2px solid blueviolet; */
+    border-radius: 9px;
+}
+
+.product-preview{
+    /* border: 2px solid mediumseagreen; */
+    margin: 1.3rem 0 0 11.5rem;
+    width: 55%;
+    display: flex;
+    gap: 1.8rem;
+}
+.shoe-detail{
+    /* border: 2px solid rgb(5, 10, 7); */
+    margin: 7rem 15.5rem 0 0;
+    min-width: 39%;
+}
+
+.shoe-detail p{
+    /* border: 3px solid olive; */
+    width: 70%;
+    color: hsl(219, 9%, 45%);
+}
+
+.company-name{
+    /* border: 2px solid lightgrey; */
+    /* padding-top: 1.3rem; */
+    margin-top: 2.5rem;
+}
+.shoe-name{
+    /* border: 2px solid crimson; */
+    width: 50%;
+    font-size: 1.6rem;
+    /* line-height: 2rem; */
+}
+
+.price-buy{
+    /* border: 2px solid royalblue; */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.price-buy .discount{
+    /* border: 1px solid brown; */
+    justify-content: center;
+    font-size: 0.7rem;
+    color: hsl(25, 100%, 55%);
+    font-weight: bold;
+    border-radius: 3px;
+    background: hsl(28, 38%, 92%);
+    padding: 0.2rem;
+}
+
+.price-buy .price{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+/* .price-discount .discount{
+    border: 2px solid indianred;
+    border-radius: 4px;
+    padding: 0.1rem;
+    margin: 0 0 0 0.8rem;
+    font-size: 0.8rem;
+} */
+
+.original-price{
+    /* border: 2px solid darkkhaki; */
+    margin: 0.4rem 0 0 0;
+    font-size: 0.9rem;
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
+}
+
+.amount-cart{
+    /* border: 2px solid slateblue; */
+    margin: 1.3rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+}
+
+.amount{
+    display: flex;
+    /* border: 2px solid rgb(201, 21, 21); */
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 9px;
+    background: hsl(28, 38%, 92%);
+}
+
+.addt-cart{
+    /* border: 2px solid rgb(245, 221, 10); */
+    font-weight: bold;
+    color: white;
+    background: hsl(25, 85%, 45%);
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0.2rem;
+    padding: 0.7rem 3rem 0.7rem 3rem;
+    border-radius: 13px;
+}
+
+.addt-cart img{
+    width: 70%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
